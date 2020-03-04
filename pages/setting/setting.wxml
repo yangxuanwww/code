@@ -1,0 +1,37 @@
+<!--setting.wxml-->
+<view class="page self-bg">
+  <view class="page__hd"></view>
+  <view class="page__bd">
+        <!--new-->
+        <view class="self-kind-container">
+            <view class="self-kind-list">
+                <!--跳转项-->
+                <view class="kind-list-item">
+                    <navigator class="list-item-hd" url="setdir/setdir">
+                        <view class="list-hd-text">设置当前仓库</view>
+                        <image src="/image/right.png" class='self-pix'></image>
+                    </navigator>
+                </view>
+                <!--跳转项-->
+                <view class="kind-list-item">
+                    <navigator class="list-item-hd" url="buildnew/buildnew">
+                        <view class="list-hd-text">新建仓库</view>
+                        <image src="/image/right.png" class='self-pix'></image>
+                    </navigator>
+                </view>
+                <!--跳转项-->
+                <view class="kind-list-item">
+                    <navigator class="list-item-hd" url="instruction/instruction">
+                        <view class="list-hd-text">使用指南</view>
+                        <image src="/image/right.png" class='self-pix'></image>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+        <!--newend-->
+        <view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__text">Crossin的编程教室</view>
+  </view>
+    
+  </view>
+</view>

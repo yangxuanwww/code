@@ -1,0 +1,30 @@
+<!--setdir.wxml-->
+<view class="page">
+  <view class="page__hd"></view>
+  <view class="page__bd self-container">
+    <!--<view class="self-container">-->
+   <!--radio-->
+        <view class="page-section">
+      <view class="page-section-title">设置当前仓库</view>
+      <view class="weui-cells weui-cells_after-title">
+        <radio-group bindchange="radioChange">
+          <label class="weui-cell weui-check__label" wx:for="{{dirArray}}" wx:key="{{item.value}}">
+
+            <view class="weui-cell__hd">
+              <radio value="{{item.value}}" checked="{{item.checked}}"/>
+            </view>
+            <view class="weui-cell__bd">{{item.name}}</view>
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    <!--radio end-->
+
+    <button class="weui-btn self-btn" type="primary" bindtap="returnindex">返回主页</button>
+
+    <view class="weui-footer weui-footer_fixed-bottom">
+
+    <view class="weui-footer__text">Crossin的编程教室</view>
+  </view>
+  </view>
+</view>

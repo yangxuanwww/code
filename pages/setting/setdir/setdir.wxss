@@ -1,0 +1,10 @@
+/* setdir.wxss */
+
+.self-container{
+  margin: 80px auto;
+  width: 80%
+}
+
+.self-btn{
+    margin: 40px auto;
+}
